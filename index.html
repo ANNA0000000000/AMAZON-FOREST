@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657560951-arEVE5vR" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "พี่พี่มีไรให้ดู",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "align": "center",
+                    "weight": "bold",
+                    "color": "#ffffff",
+                    "size": "lg",
+                    "offsetBottom": "none",
+                    "text": "AMAZON FOREST"
+                  },
+                  {
+                    "type": "text",
+                    "text": "พิเศษ!! รับโบนัส 200%",
+                    "align": "center",
+                    "color": "#ff0000",
+                    "size": "xs",
+                    "weight": "bold"
+                  }
+                ],
+                "paddingAll": "none",
+                "borderWidth": "light",
+                "cornerRadius": "lg",
+                "borderColor": "#f7de31",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#000000",
+                  "endColor": "#a27512"
+                },
+                "spacing": "none"
+              }
+            ],
+            "paddingAll": "none",
+            "borderWidth": "none",
+            "cornerRadius": "none",
+            "paddingEnd": "sm",
+            "paddingStart": "sm",
+            "margin": "none",
+            "offsetBottom": "none",
+            "offsetTop": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1028672182009724980/1030094305383157800/-01.jpg?width=663&height=663",
+                "size": "full",
+                "aspectMode": "fit"
+              }
+            ],
+            "borderWidth": "bold",
+            "cornerRadius": "xl",
+            "paddingAll": "sm",
+            "offsetBottom": "xs",
+            "paddingStart": "md",
+            "paddingEnd": "md",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "เครดิตฟรี 50.-",
+                "align": "center",
+                "weight": "bold",
+                "size": "lg",
+                "color": "#ffffff"
+              },
+              {
+                "type": "text",
+                "text": "ไม่ต้องฝากก่อน รับได้ทุกคน",
+                "weight": "bold",
+                "align": "center",
+                "size": "xs",
+                "color": "#ffffff"
+              },
+              {
+                "type": "text",
+                "text": "*สมาชิกใหม่ฝาก 300 รับ 500 *",
+                "weight": "bold",
+                "align": "center",
+                "size": "xs",
+                "color": "#ff0000"
+              }
+            ],
+            "backgroundColor": "#a27512",
+            "borderWidth": "medium",
+            "borderColor": "#f7de31",
+            "cornerRadius": "lg",
+            "paddingAll": "md",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#a27512"
+            },
+            "spacing": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "รับเครดิตฟรี",
+                    "align": "center",
+                    "weight": "bold",
+                    "color": "#DCDCDC"
+                  }
+                ],
+                "backgroundColor": "#a27512",
+                "borderWidth": "light",
+                "borderColor": "#f7de31",
+                "cornerRadius": "md",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#000000",
+                  "endColor": "#a27512"
+                },
+                "paddingAll": "md",
+                "paddingTop": "md",
+                "spacing": "none",
+                "margin": "none",
+                "offsetTop": "none",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://lin.ee/xgyZ9uD"
+                }
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "สมัครสมาชิก",
+                    "weight": "bold",
+                    "align": "center",
+                    "color": "#DCDCDC"
+                  }
+                ],
+                "backgroundColor": "#a27512",
+                "borderWidth": "light",
+                "borderColor": "#f7de31",
+                "cornerRadius": "md",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#000000",
+                  "endColor": "#a27512"
+                },
+                "paddingAll": "md",
+                "paddingTop": "md",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://www.superjoker99.com/"
+                }
+              }
+            ],
+            "paddingAll": "none",
+            "borderWidth": "none",
+            "cornerRadius": "none",
+            "paddingEnd": "sm",
+            "paddingStart": "sm",
+            "margin": "md",
+            "offsetBottom": "sm",
+            "spacing": "none"
+          }
+        ],
+        "borderWidth": "bold",
+        "cornerRadius": "xl",
+        "paddingAll": "sm",
+        "borderColor": "#634a1f",
+        "backgroundColor": "#f7de31"
+      }
+    }
+  ]
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
